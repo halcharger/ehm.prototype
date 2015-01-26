@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('metronicadmin3angularjsprototypestarterkitApp', [
+  .module('EHM', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -24,7 +24,8 @@ angular
         templateUrl: 'views/dashboard.html'
       })
       .when('/movements', {
-        templateUrl: 'views/movements.html'
+        templateUrl: 'views/movements.html',
+        controller: 'MovementsController'
       })
       .when('/projects', {
         templateUrl: 'views/projects.html'
