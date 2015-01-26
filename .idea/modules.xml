@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/metronic.admin3.angularjs.prototype.starterkit.iml" filepath="$PROJECT_DIR$/.idea/metronic.admin3.angularjs.prototype.starterkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ehm.prototype.iml" filepath="$PROJECT_DIR$/.idea/ehm.prototype.iml" />
     </modules>
   </component>
 </project>
