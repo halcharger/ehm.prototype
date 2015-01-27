@@ -1,14 +1,14 @@
 'use strict';
 
 angular.module('EHM')
-  .controller('MovementsController',
+  .controller('PlanningController',
   function ($scope, $modal, $log) {
 
     $scope.items = ['item1', 'item2', 'item3'];
 
     $scope.open = function (size) {
       var modalInstance = $modal.open({
-        templateUrl: 'viewMovementModalContent.html',
+        templateUrl: 'viewQuoteModalContent.html',
         controller: 'ModalInstanceController',
         size: size,
         resolve: {

@@ -45,6 +45,19 @@ angular
       .when('/deletemovement', {
         templateUrl: 'views/deletemovement.html'
       })
+      .when('/deletequote', {
+        templateUrl: 'views/deletequote.html'
+      })
+      .when('/planning', {
+        templateUrl: 'views/planning.html',
+        controller: 'PlanningController'
+      })
+      .when('/editquote', {
+        templateUrl: 'views/editquote.html'
+      })
+      .when('/sitebalancereportsetup', {
+        templateUrl: 'views/sitebalancereportsetup.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
