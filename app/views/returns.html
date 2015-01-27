@@ -3,8 +3,8 @@
   <div class="container">
     <!-- BEGIN PAGE TITLE -->
     <div class="page-title">
-      <h1><i class="fa fa-exchange fa-2x"></i></i> Shopping Mall Project | Movements
-        <small>view, search and query all your item movements</small>
+      <h1><i class="fa fa-sign-out fa-rotate-180 fa-2x"></i></i> Shopping Mall Project | Returns
+        <small>view, search and query all your returns</small>
       </h1>
     </div>
     <!-- END PAGE TITLE -->
@@ -19,45 +19,20 @@
       <div class="portlet-body">
 
         <div class="clearfix">
-          <div class="col-md-3">
-            <h2>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-              Deliveries
-            </h2>
-          </div>
-          <div class="col-md-3">
-            <h2>
-              <button class="btn btn-success btn-lg"><i class="fa fa-sign-out fa-rotate-180"></i></button>
-              Returns
-            </h2>
-          </div>
           <div class="pull-right">
-            <a class="btn btn-primary" href="#/editdelivery"><i class="fa fa-sign-in"></i> Capture New Delivery</a>
-            <a class="btn btn-success" href="#/editdelivery"><i class="fa fa-sign-out fa-rotate-180"></i> Capture New
-              Return</a>
+            <a class="btn btn-success" href="#/editreturn"><i class="fa fa-sign-out fa-rotate-180"></i> Capture New Return</a>
           </div>
         </div>
 
         <div class="portlet light bordered margin-top-10">
           <div class="portlet-title">
-            <div class="caption font-green-sharp">
-              <i class="fa fa-filter font-green-sharp"></i>
-              <span class="caption-subject bold uppercase"> Filter Movement Records</span>
-              <span class="caption-helper">weekly stats...</span>
+            <div class="caption font-green-meadow">
+              <i class="fa fa-filter font-green-meadow"></i>
+              <span class="caption-subject bold uppercase"> Filter Return Records</span>
             </div>
           </div>
           <div class="portlet-body">
             <div class="row" style="margin-top: 10px">
-              <div class="col-md-4">
-                <div class="input-group">
-                  <span class="input-group-addon">Movement:</span>
-                  <select class="form-control" aria-describedby="basic-addon2">
-                    <option></option>
-                    <option value="Arnold">Delivery</option>
-                    <option value="Tony Blair">Return</option>
-                  </select>
-                </div>
-              </div>
               <div class="col-md-4">
                 <div class="input-group">
                   <span class="input-group-addon">Date:</span>
@@ -109,15 +84,15 @@
           </div>
         </div>
 
-        <script type="text/ng-template" id="viewMovementModalContent.html">
+        <script type="text/ng-template" id="viewReturnModalContent.html">
           <div class="modal-header">
-            <h3 class="modal-title">View Delivery</h3>
+            <h3 class="modal-title">View Return</h3>
           </div>
           <div class="modal-body">
-            <span data-ng-include="'views/viewMovement.html'"></span>
+            <span data-ng-include="'views/viewReturn.html'"></span>
           </div>
           <div class="modal-footer">
-            <button class="btn btn-primary"><i class="fa fa-print"></i> Print</button>
+            <button class="btn btn-primary" onclick="javascript:window.print();"><i class="fa fa-print"></i> Print</button>
             <button class="btn btn-primary" ng-click="ok()">OK</button>
           </div>
         </script>
@@ -125,9 +100,6 @@
         <table class="table table-bordered table-condensed">
           <thead class="flip-content">
           <tr>
-            <th style="width:10%">
-              Movement
-            </th>
             <th>
               Date
             </th>
@@ -148,9 +120,6 @@
           </thead>
           <tbody>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               28/01/2015
             </td>
@@ -173,14 +142,11 @@
               65,485
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               01/02/2015
             </td>
@@ -201,14 +167,11 @@
               4,325
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               13/02/2015
             </td>
@@ -231,14 +194,11 @@
               235
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-success btn-lg"><i class="fa fa-sign-out fa-rotate-180"></i></button>
-            </td>
             <td>
               20/02/2015
             </td>
@@ -261,14 +221,11 @@
               4,987
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               01/03/2015
             </td>
@@ -291,14 +248,11 @@
               455
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-success btn-lg"><i class="fa fa-sign-out fa-rotate-180"></i></button>
-            </td>
             <td>
               05/03/2015
             </td>
@@ -321,14 +275,11 @@
               3,447
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               19/03/2015
             </td>
@@ -351,14 +302,11 @@
               654
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i></button>
-            </td>
             <td>
               29/03/2015
             </td>
@@ -381,14 +329,11 @@
               721
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-success btn-lg"><i class="fa fa-sign-out fa-rotate-180"></i></button>
-            </td>
             <td>
               01/04/2015
             </td>
@@ -411,14 +356,11 @@
               711
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           <tr>
-            <td>
-              <button class="btn btn-success btn-lg"><i class="fa fa-sign-out fa-rotate-180"></i></button>
-            </td>
             <td>
               30/04/2015
             </td>
@@ -441,14 +383,14 @@
               112
             </td>
             <td>
-              <span data-ng-include="'views/headerActionButton.html'"></span>
+              <span data-ng-include="'views/returnHeaderActionButton.html'"></span>
             </td>
 
           </tr>
           </tbody>
           <tfoot>
           <tr>
-            <th colspan="5" class="text-right">Totals:</th>
+            <th colspan="4" class="text-right">Totals:</th>
             <th>1,567</th>
             <th>23, 456</th>
             <th>14, 422</th>

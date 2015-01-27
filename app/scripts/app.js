@@ -23,9 +23,13 @@ angular
       .when('/', {
         templateUrl: 'views/dashboard.html'
       })
-      .when('/movements', {
-        templateUrl: 'views/movements.html',
-        controller: 'MovementsController'
+      .when('/deliveries', {
+        templateUrl: 'views/deliveries.html',
+        controller: 'DeliveriesController'
+      })
+      .when('/returns', {
+        templateUrl: 'views/returns.html',
+        controller: 'ReturnsController'
       })
       .when('/projects', {
         templateUrl: 'views/projects.html'
@@ -36,14 +40,20 @@ angular
       .when('/editdelivery', {
         templateUrl: 'views/editdelivery.html'
       })
+      .when('/editreturn', {
+        templateUrl: 'views/editreturn.html'
+      })
       .when('/suppliers', {
         templateUrl: 'views/suppliers.html'
       })
       .when('/products', {
         templateUrl: 'views/products.html'
       })
-      .when('/deletemovement', {
-        templateUrl: 'views/deletemovement.html'
+      .when('/deletedelivery', {
+        templateUrl: 'views/deletedelivery.html'
+      })
+      .when('/deletereturn', {
+        templateUrl: 'views/deletereturn.html'
       })
       .when('/deletequote', {
         templateUrl: 'views/deletequote.html'

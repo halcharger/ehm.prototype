@@ -3,8 +3,8 @@
   <div class="container">
     <!-- BEGIN PAGE TITLE -->
     <div class="page-title">
-      <h1><i class="fa fa-calculator fa-2x"></i> Quotes / Planning
-        <small>manage your quotes and planning documents</small>
+      <h1><i class="fa fa-sign-in fa-2x"></i></i> Shopping Mall Project | Deliveries
+        <small>view, search and query all your deliveries</small>
       </h1>
     </div>
     <!-- END PAGE TITLE -->
@@ -19,19 +19,20 @@
       <div class="portlet-body">
 
         <div class="clearfix">
+
           <div class="pull-right">
-            <a class="btn yellow-crusta" href="#/editquote"><i class="fa fa-calculator"></i> Capture New Quote</a>
+            <a class="btn blue" href="#/editdelivery"><i class="fa fa-sign-in"></i> Capture New Delivery</a>
           </div>
         </div>
 
         <div class="portlet light bordered margin-top-10">
           <div class="portlet-title">
-            <div class="caption font-yellow-crusta">
-              <i class="fa fa-filter font-yellow-crusta"></i>
-              <span class="caption-subject bold uppercase"> Filter Quote / Planning Records</span>
+            <div class="caption font-blue-steel">
+              <i class="fa fa-filter font-blue-steel"></i>
+              <span class="caption-subject bold uppercase"> Filter Delivery Records</span>
             </div>
           </div>
-          <div class="portlet-body clearfix">
+          <div class="portlet-body">
             <div class="row" style="margin-top: 10px">
               <div class="col-md-4">
                 <div class="input-group">
@@ -66,6 +67,12 @@
             <div class="row" style="margin-top:10px; margin-bottom: 10px;">
               <div class="col-md-4">
                 <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1">Doc #:</span>
+                  <input type="text" class="form-control" aria-describedby="basic-addon2">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="input-group">
                   <span class="input-group-addon">Supplier:</span>
                   <select class="form-control" aria-describedby="basic-addon2">
                     <option></option>
@@ -73,23 +80,17 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="input-group">
-                  <span class="input-group-addon" id="basic-addon1">Doc #:</span>
-                  <input type="text" class="form-control" aria-describedby="basic-addon2">
-                </div>
-              </div>
 
             </div>
           </div>
         </div>
 
-        <script type="text/ng-template" id="viewQuoteModalContent.html">
+        <script type="text/ng-template" id="viewDeliveryModalContent.html">
           <div class="modal-header">
-            <h3 class="modal-title">View Quote</h3>
+            <h3 class="modal-title">View Delivery</h3>
           </div>
           <div class="modal-body">
-            <span data-ng-include="'views/viewQuote.html'"></span>
+            <span data-ng-include="'views/viewDelivery.html'"></span>
           </div>
           <div class="modal-footer">
             <button class="btn btn-primary"><i class="fa fa-print"></i> Print</button>
@@ -100,7 +101,9 @@
         <table class="table table-bordered table-condensed">
           <thead class="flip-content">
           <tr>
-            <th>Date</th>
+            <th>
+              Date
+            </th>
             <th>
               Zone
             </th>
@@ -117,6 +120,112 @@
           </tr>
           </thead>
           <tbody>
+          <tr>
+            <td>
+              28/01/2015
+            </td>
+            <td>
+              South Building
+            </td>
+            <td>
+              FromScaff
+            </td>
+            <td>
+              34586854
+            </td>
+            <td>
+              354
+            </td>
+            <td class="numeric">
+              9,395
+            </td>
+            <td class="numeric">
+              65,485
+            </td>
+            <td>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
+            </td>
+
+          </tr>
+          <tr>
+            <td>
+              01/02/2015
+            </td>
+            <td class="numeric">
+              Main Building
+            </td>
+            <td>FormScaff</td>
+            <td>
+              567899
+            </td>
+            <td>
+              300
+            </td>
+            <td class="numeric">
+              7,896
+            </td>
+            <td class="numeric">
+              4,325
+            </td>
+            <td>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
+            </td>
+
+          </tr>
+          <tr>
+            <td>
+              13/02/2015
+            </td>
+            <td class="numeric">
+              West Wing
+            </td>
+            <td>
+              FormScaff
+            </td>
+            <td>
+              392677
+            </td>
+            <td class="numeric">
+              200
+            </td>
+            <td class="numeric">
+              1,435
+            </td>
+            <td class="numeric">
+              235
+            </td>
+            <td>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
+            </td>
+
+          </tr>
+          <tr>
+            <td>
+              20/02/2015
+            </td>
+            <td class="numeric">
+              Main House
+            </td>
+            <td>
+              FormScaff
+            </td>
+            <td>
+              3981275
+            </td>
+            <td>
+              240
+            </td>
+            <td class="numeric">
+              789
+            </td>
+            <td class="numeric">
+              4,987
+            </td>
+            <td>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
+            </td>
+
+          </tr>
           <tr>
             <td>
               01/03/2015
@@ -140,7 +249,7 @@
               455
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -167,7 +276,7 @@
               3,447
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -194,7 +303,7 @@
               654
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -221,7 +330,7 @@
               721
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -248,7 +357,7 @@
               711
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -275,7 +384,7 @@
               112
             </td>
             <td>
-              <span data-ng-include="'views/quoteHeaderActionButtons.html'"></span>
+              <span data-ng-include="'views/deliveryHeaderActionButton.html'"></span>
             </td>
 
           </tr>
@@ -323,3 +432,4 @@
 
   </div>
 </div>
+<!-- END PAGE CONTENT -->
