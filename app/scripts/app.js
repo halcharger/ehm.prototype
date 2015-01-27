@@ -58,6 +58,9 @@ angular
       .when('/sitebalancereportsetup', {
         templateUrl: 'views/sitebalancereportsetup.html'
       })
+      .when('/configureproject', {
+        templateUrl: 'views/project.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
