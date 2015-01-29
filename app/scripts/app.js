@@ -68,6 +68,9 @@ angular
       .when('/sitebalancereportsetup', {
         templateUrl: 'views/sitebalancereportsetup.html'
       })
+      .when('/invoicingreportsetup', {
+        templateUrl: 'views/invoicingreportsetup.html'
+      })
       .when('/configureproject', {
         templateUrl: 'views/project.html'
       })
