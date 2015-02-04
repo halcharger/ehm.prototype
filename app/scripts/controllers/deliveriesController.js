@@ -8,7 +8,7 @@ angular.module('EHM')
 
     $scope.open = function (size) {
       var modalInstance = $modal.open({
-        templateUrl: 'viewMovementModalContent.html',
+        templateUrl: 'viewDeliveryModalContent.html',
         controller: 'ModalInstanceController',
         size: size,
         resolve: {
