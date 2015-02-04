@@ -71,6 +71,34 @@
               </div>
 
             </div>
+            <div class="row" style="margin-top: 10px">
+              <div class="col-md-4">
+                <div class="input-group">
+                  <span class="input-group-addon">From Date:</span>
+                  <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy">
+                    <input type="text" class="form-control" readonly="">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i>
+                        </button>
+												</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="input-group">
+                  <span class="input-group-addon">To Date:</span>
+                  <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy">
+                    <input type="text" class="form-control" readonly="">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i>
+                        </button>
+												</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
             <div class="row" style="margin-top:10px; margin-bottom: 10px;">
               <div class="form-group">
                 <label class="col-md-2 control-label">Show Columns</label>
@@ -108,7 +136,7 @@
           <div class="portlet-title">
             <div class="caption font-green-sharp">
               <i class="fa fa-area-chart font-green-sharp"></i>
-              <span class="caption-subject bold uppercase"> Movements Report </span>
+              <span class="caption-subject bold uppercase"> Detail Movements Report </span>
             </div>
             <div class="actions hidden-print">
               <button class="btn btn-priamry" onclick="javascript:window.print();"><i class="fa fa-print"></i> Print
@@ -117,29 +145,39 @@
           </div>
           <div class="portlet-body">
             <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
+              <span class="col-md-4">
+                <span class="form-group">
                   <label class="control-label"><strong>Project:</strong></label>
 
                   <p class="form-control-static">Shopping Mall Project</p>
-                </div>
-              </div>
+                </span>
+              </span>
               <!--/span-->
-              <div class="col-md-4">
-                <div class="form-group">
+              <span class="col-md-4">
+                <span class="form-group">
                   <label class="control-label"><strong>Supplier:</strong></label>
 
                   <p class="form-control-static">FormScaff</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label class="control-label"><strong>Date:</strong></label>
+                </span>
+              </span>
+            </div>
+            <div class="row">
+              <span class="col-md-4">
+                <span class="form-group">
+                  <label class="control-label"><strong>Report Date:</strong></label>
 
                   <p class="form-control-static">26/01/2015</p>
-                </div>
-              </div>
+                </span>
+              </span>
+              <span class="col-md-4">
+                <span class="form-group">
+                  <label class="control-label"><strong>Report Period:</strong></label>
+
+                  <p class="form-control-static">01/01/2015 <strong>to</strong> 31/01/2015</p>
+                </span>
+              </span>
             </div>
+
 
             <div class="portlet bordered light">
               <div class="portlet-title">
