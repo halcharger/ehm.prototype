@@ -39,10 +39,12 @@ angular
         templateUrl: 'views/reporting.html'
       })
       .when('/editdelivery', {
-        templateUrl: 'views/editdelivery.html'
+        templateUrl: 'views/editdelivery.html',
+        controller:'EditDeliveryController'
       })
       .when('/editreturn', {
-        templateUrl: 'views/editreturn.html'
+        templateUrl: 'views/editreturn.html',
+        controller:'EditReturnController'
       })
       .when('/suppliers', {
         templateUrl: 'views/suppliers.html'
@@ -64,7 +66,8 @@ angular
         controller: 'PlanningController'
       })
       .when('/editquote', {
-        templateUrl: 'views/editquote.html'
+        templateUrl: 'views/editquote.html',
+        controller:'EditQuoteController'
       })
       .when('/sitebalancereportsetup', {
         templateUrl: 'views/sitebalancereportsetup.html'

@@ -3,7 +3,7 @@
     <div class="container">
         <!-- BEGIN PAGE TITLE -->
         <div class="page-title">
-            <h1><i class="fa fa-sign-out fa-rotate-180 fa-2x"></i> Shopping Mall Project \ Edit Return
+            <h1><i class="fa fa-sign-out fa-rotate-180 fa-2x font-green-sharp"></i> Shopping Mall Project \ Edit Return
                 <small>edit specific return details</small>
             </h1>
         </div>
@@ -62,8 +62,8 @@
                             </div>
                             <div class="clearfix">
                                 <div class="pull-right">
-                                    <button type="submit" class="btn btn-circle blue">Save Changes</button>
-                                    <button type="button" class="btn btn-circle default">Cancel</button>
+                                    <button type="submit" class="btn green-sharp">Save Changes</button>
+                                    <button type="button" class="btn default">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,40 @@
 
                 <h3 class="form-section">Return Line Items</h3>
 
-                <table class="table table-bordered table-striped table-condensed flip-content">
+              <div class="portlet solid grey-cascade">
+                <div class="portlet-body clearfix">
+                  <div class="row">
+                    <div class="col-md-8 caption">
+                      Product Name/Code
+                    </div>
+                    <div class="col-md-1">Qty</div>
+                    <div class="col-md-2">Duration</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <input type="text" ng-model="selectedProduct" placeholder="enter product/code..." typeahead="product for product in products | filter:$viewValue | limitTo:8" class="form-control">          </div>
+                    <div class="col-md-1">
+                      <input type="text" class="form-control" placeholder="Qty">
+                    </div>
+                    <div class="col-md-2">
+                      <select class="form-control">
+                        <option></option>
+                        <option>1 week</option>
+                        <option>2 week</option>
+                        <option>3 week</option>
+                        <option>4 week</option>
+                        <option>5 week</option>
+                        <option>6 week</option>
+                      </select>
+                    </div>
+                    <div class="col-md-1">
+                      <a href="" class="btn green-sharp"><i class="fa fa-plus"></i>Add</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <table class="table table-bordered table-striped table-condensed flip-content">
                     <thead class="flip-content">
                     <tr>
                         <th>
@@ -91,11 +124,7 @@
                         </th>
                         <th>Rate (per day)</th>
                         <th>Cost Per Day</th>
-                        <th>
-                            <a href="#/editreturn" class="btn green-haze btn-circle"><i class="fa fa-plus"></i>
-                                Add</a>
-
-                        </th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>

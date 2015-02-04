@@ -3,7 +3,7 @@
   <div class="container">
     <!-- BEGIN PAGE TITLE -->
     <div class="page-title">
-      <h1><i class="fa fa-sign-in fa-2x"></i><i class="fa fa-sign-out fa-2x"></i> Shopping Mall Project \ Edit Quote
+      <h1><i class="fa fa-calculator fa-2x font-yellow-crusta"></i> Shopping Mall Project \ Edit Quote
         <small>edit specific quote details</small>
       </h1>
     </div>
@@ -62,14 +62,47 @@
             </div>
             <div class="clearfix">
               <div class="pull-right">
-                <button type="submit" class="btn btn-circle blue">Save Changes</button>
-                <button type="button" class="btn btn-circle default">Cancel</button>
+                <button type="submit" class="btn yellow-crusta">Save Changes</button>
+                <button type="button" class="btn default">Cancel</button>
               </div>
             </div>
           </div>
         </form>
 
         <h3 class="form-section">Quote / Planning Line Items</h3>
+
+        <div class="portlet solid grey-cascade">
+          <div class="portlet-body clearfix">
+            <div class="row">
+              <div class="col-md-8 caption">
+                Product Name/Code
+              </div>
+              <div class="col-md-1">Qty</div>
+              <div class="col-md-2">Duration</div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <input type="text" ng-model="selectedProduct" placeholder="enter product/code..." typeahead="product for product in products | filter:$viewValue | limitTo:8" class="form-control">          </div>
+              <div class="col-md-1">
+                <input type="text" class="form-control" placeholder="Qty">
+              </div>
+              <div class="col-md-2">
+                <select class="form-control">
+                  <option></option>
+                  <option>1 week</option>
+                  <option>2 week</option>
+                  <option>3 week</option>
+                  <option>4 week</option>
+                  <option>5 week</option>
+                  <option>6 week</option>
+                </select>
+              </div>
+              <div class="col-md-1">
+                <a href="" class="btn yellow-crusta"><i class="fa fa-plus"></i>Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <table class="table table-bordered table-striped table-condensed flip-content">
           <thead class="flip-content">
@@ -93,9 +126,6 @@
             <th>Cost Per Day</th>
             <th>Estimated weeks onsite</th>
             <th>
-              <a href="#/editdelivery" class="btn green-haze btn-circle"><i class="fa fa-plus"></i>
-                Add</a>
-
             </th>
           </tr>
           </thead>

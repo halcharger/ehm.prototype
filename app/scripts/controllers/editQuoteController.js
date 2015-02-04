@@ -1,5 +1,5 @@
 angular.module('EHM')
-  .controller('DashboardController',
+  .controller('EditQuoteController',
   function (productService, $scope) {
 
     $scope.products = productService.products;
