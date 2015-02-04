@@ -1,14 +1,11 @@
 angular.module('EHM')
   .controller('ModalInstanceController',
-  function ($scope, $modalInstance, items) {
+  function ($scope, $modalInstance, productService) {
 
-  $scope.items = items;
-  $scope.selected = {
-    item: $scope.items[0]
-  };
+    $scope.products = productService.products;
 
-  $scope.ok = function () {
-    $modalInstance.close($scope.selected.item);
+    $scope.ok = function () {
+    $modalInstance.close();
   };
 
   $scope.cancel = function () {
