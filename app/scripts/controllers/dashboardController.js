@@ -6,7 +6,6 @@ angular.module('EHM')
 
     $scope.chart = {
       "type": "ColumnChart",
-      "cssStyle": "height:200px; width:300px;",
       "data": {
         "cols": [
           {
@@ -18,8 +17,7 @@ angular.module('EHM')
           {
             "id": "delivered-id",
             "label": "Delivered",
-            "type": "number",
-            "p": {}
+            "type": "number"
           },
           {
             "id": "outstanding-id",
@@ -84,6 +82,7 @@ angular.module('EHM')
       },
       "options": {
         "isStacked": "true",
+        "colors":['#578ebe', '#e04a49', '#44b6ae'],
         legend: { position: 'top' },
         "fill": 20,
         "displayExactValues": true,
@@ -133,6 +132,7 @@ angular.module('EHM')
       },
       "options": {
         "isStacked": "true",
+        "colors":['#578ebe', '#e04a49', '#44b6ae'],
         "legend": { position: 'top' },
         "curveType":"function",
         "fill": 20,
