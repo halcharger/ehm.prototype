@@ -85,6 +85,9 @@ angular
       .when('/configureproject', {
         templateUrl: 'views/project.html'
       })
+      .when('/returnssheet', {
+        templateUrl: 'views/returnssheet.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
