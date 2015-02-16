@@ -104,6 +104,7 @@ angular.module('EHM')
     $scope.chartObject = {
       "type": "LineChart",
       "displayed": true,
+      "curveType": "function",
       "data": {
         "cols": [
           {
@@ -133,16 +134,19 @@ angular.module('EHM')
       "options": {
         "isStacked": "true",
         "legend": { position: 'top' },
+        "curveType":"function",
         "fill": 20,
         "displayExactValues": true,
+        "height":300,
+        "hAxis.maxTextLines":1,
         "vAxis": {
           "title": "Balance",
           "gridlines": {
-            "count": 10
+            "count": 6
           }
         },
         "hAxis": {
-          "title": "Date"
+          "title": ""
         }
       },
       "formatters": {}
