@@ -92,6 +92,10 @@ angular
         templateUrl: 'views/onsitebalanceovertime.html',
         controller: 'OnsiteBalanceOverTimeController'
       })
+      .when('/percentagedelivered', {
+        templateUrl: 'views/percentagedeliveredgraph.html',
+        controller: 'PercentageDeliveredController'
+      })
       .otherwise({
         redirectTo: '/'
       });

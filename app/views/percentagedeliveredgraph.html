@@ -1,0 +1,97 @@
+<!-- BEGIN PAGE HEAD -->
+<div class="page-head">
+  <div class="container">
+    <!-- BEGIN PAGE TITLE -->
+    <div class="page-title">
+      <h1><i class="fa fa-area-chart fa-2x"></i> Percentage Delivered
+        <small>graph the percentage delivered todate</small>
+      </h1>
+    </div>
+    <!-- END PAGE TITLE -->
+  </div>
+</div>
+<!-- END PAGE HEAD -->
+<!-- BEGIN PAGE CONTENT -->
+<div class="page-content">
+  <div class="container">
+
+    <div class="portlet light bordered margin-top-10 hidden-print">
+      <div class="portlet-title">
+        <div class="caption font-green-sharp">
+          <i class="fa fa-cogs font-green-sharp"></i>
+          <span class="caption-subject bold uppercase"> Graph Settings</span>
+        </div>
+      </div>
+      <div class="portlet-body">
+        <div class="row" style="margin-top: 10px">
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-addon">Project:</span>
+              <select class="form-control" aria-describedby="basic-addon2">
+                <option></option>
+                <option value="Arnold">Umhlanga Home</option>
+                <option value="Tony Blair">Project One</option>
+                <option value="Ken Livingston" selected>Shopping Mall Project</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-addon">Zone:</span>
+              <select class="form-control" aria-describedby="basic-addon2">
+                <option></option>
+                <option>South Building</option>
+                <option selected>North Building</option>
+                <option>West Wing</option>
+                <option>Main Building</option>
+                <option>Complex 1</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-addon">Supplier:</span>
+              <select class="form-control" aria-describedby="basic-addon2">
+                <option></option>
+                <option value="Arnold" selected>FormScaff</option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+        <div class="margin-top-10 clearfix">
+          <div class="pull-right">
+            <a class="btn btn-primary" href=""><i class="fa fa-area-chart"></i> Generate Graph</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portlet light margin-top-10">
+      <div class="portlet-title">
+        <div class="caption font-green-sharp">
+          <i class="fa fa-area-chart font-green-sharp"></i>
+          <span class="caption-subject bold uppercase"> Percentage Delivered Todate</span>
+        </div>
+        <div class="actions hidden-print">
+          <button class="btn btn-priamry" onclick="javascript:window.print();"><i class="fa fa-print"></i> Print
+          </button>
+        </div>
+        <table class="printHeadingTable">
+          <tr>
+            <th>Project:</th>
+            <td>Shopping Mall Project</td>
+            <th>Zone:</th>
+            <td>North Building</td>
+            <th>Supplier:</th>
+            <td>FormScaff</td>
+          </tr>
+        </table>
+      </div>
+      <div class="portlet-body">
+        <div google-chart chart="chart" style="height: 500px;"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
