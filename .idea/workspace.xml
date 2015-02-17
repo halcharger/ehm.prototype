@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64562f8-cb21-49de-bbef-e733e9517af8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invoicingReportSetup.html" afterPath="$PROJECT_DIR$/app/views/invoicingReportSetup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movementsReportSetup.html" afterPath="$PROJECT_DIR$/app/views/movementsReportSetup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movementsReportSetupSummary.html" afterPath="$PROJECT_DIR$/app/views/movementsReportSetupSummary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard.html" afterPath="$PROJECT_DIR$/app/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/editdelivery.html" afterPath="$PROJECT_DIR$/app/views/editdelivery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/editquote.html" afterPath="$PROJECT_DIR$/app/views/editquote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/editreturn.html" afterPath="$PROJECT_DIR$/app/views/editreturn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mainMenu.html" afterPath="$PROJECT_DIR$/app/views/mainMenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/onsitebalanceovertime.html" afterPath="$PROJECT_DIR$/app/views/onsitebalanceovertime.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/percentagedeliveredgraph.html" afterPath="$PROJECT_DIR$/app/views/percentagedeliveredgraph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/returnssheet.html" afterPath="$PROJECT_DIR$/app/views/returnssheet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sitebalanceReportsetup.html" afterPath="$PROJECT_DIR$/app/views/sitebalanceReportsetup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewDelivery.html" afterPath="$PROJECT_DIR$/app/views/viewDelivery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewQuote.html" afterPath="$PROJECT_DIR$/app/views/viewQuote.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewReturn.html" afterPath="$PROJECT_DIR$/app/views/viewReturn.html" />
     </list>
     <ignored path="metronic.admin3.angularjs.prototype.starterkit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +34,121 @@
     <favorites_list name="metronic.admin3.angularjs.prototype.starterkit" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="editdelivery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/editdelivery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="1785" max-vertical-offset="2703">
+              <caret line="342" column="24" selection-start-line="119" selection-start-column="14" selection-end-line="342" selection-end-column="24" />
+              <folding>
+                <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainMenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/mainMenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.576923" vertical-offset="1353" max-vertical-offset="2227">
+              <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onsitebalanceovertime.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/onsitebalanceovertime.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="1683" max-vertical-offset="2567">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="percentagedeliveredgraph.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/percentagedeliveredgraph.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11789182" vertical-offset="0" max-vertical-offset="1751">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="7072">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewQuote.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/viewQuote.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.653847" vertical-offset="6" max-vertical-offset="714">
+              <caret line="230" column="8" selection-start-line="35" selection-start-column="0" selection-end-line="230" selection-end-column="8" />
+              <folding>
+                <element signature="n#table#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewDelivery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/viewDelivery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.307692" vertical-offset="6" max-vertical-offset="714">
+              <caret line="220" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+              <folding>
+                <element signature="n#table#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewReturn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/viewReturn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="714">
+              <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+              <folding>
+                <element signature="n#table#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editreturn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/editreturn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.153847" vertical-offset="2063" max-vertical-offset="6681">
+              <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editquote.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/editquote.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3461539" vertical-offset="5798" max-vertical-offset="6868">
+              <caret line="339" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,11 +156,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/deleteMovement.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/movementscontroller.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/planningController.js" />
-        <option value="$PROJECT_DIR$/app/views/viewQuote.html" />
         <option value="$PROJECT_DIR$/app/views/deleteQuote.html" />
         <option value="$PROJECT_DIR$/app/views/movements.html" />
         <option value="$PROJECT_DIR$/app/views/project.html" />
@@ -63,16 +176,12 @@
         <option value="$PROJECT_DIR$/app/views/editQuoteLineItemForm.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/editdeliveryController.js" />
         <option value="$PROJECT_DIR$/app/views/lineItemDeliveryActionButton.html" />
-        <option value="$PROJECT_DIR$/app/views/editdelivery.html" />
-        <option value="$PROJECT_DIR$/app/views/editreturn.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/editReturnController.js" />
         <option value="$PROJECT_DIR$/app/views/lineItemReturnActionButton.html" />
         <option value="$PROJECT_DIR$/app/views/deleteDeliveryLineItemForm.html" />
         <option value="$PROJECT_DIR$/app/views/deleteQuoteLineItemForm.html" />
-        <option value="$PROJECT_DIR$/app/views/editquote.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/editQuoteController.js" />
         <option value="$PROJECT_DIR$/app/views/lineItemQuoteActionButton.html" />
-        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/dashboardController.js" />
         <option value="$PROJECT_DIR$/app/views/planning.html" />
         <option value="$PROJECT_DIR$/.tmp/styles/main.css" />
@@ -80,17 +189,24 @@
         <option value="$PROJECT_DIR$/app/views/movementsovertimegraph.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/onsiteBalanceOverTimeController.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/mainMenu.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/percentageDeliveredController.js" />
-        <option value="$PROJECT_DIR$/app/views/percentagedeliveredgraph.html" />
-        <option value="$PROJECT_DIR$/app/views/onsitebalanceovertime.html" />
         <option value="$PROJECT_DIR$/app/views/returns.html" />
         <option value="$PROJECT_DIR$/app/views/returnssheet.html" />
         <option value="$PROJECT_DIR$/app/views/movementsReportSetup.html" />
         <option value="$PROJECT_DIR$/app/views/movementsReportSetupSummary.html" />
         <option value="$PROJECT_DIR$/app/views/invoicingReportSetup.html" />
         <option value="$PROJECT_DIR$/app/views/sitebalanceReportsetup.html" />
+        <option value="$PROJECT_DIR$/app/views/editquote.html" />
+        <option value="$PROJECT_DIR$/app/views/viewQuote.html" />
+        <option value="$PROJECT_DIR$/app/views/viewDelivery.html" />
+        <option value="$PROJECT_DIR$/app/views/viewReturn.html" />
+        <option value="$PROJECT_DIR$/app/views/editdelivery.html" />
+        <option value="$PROJECT_DIR$/app/views/editreturn.html" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/views/mainMenu.html" />
+        <option value="$PROJECT_DIR$/app/views/onsitebalanceovertime.html" />
+        <option value="$PROJECT_DIR$/app/views/percentagedeliveredgraph.html" />
       </list>
     </option>
   </component>
@@ -267,7 +383,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="880" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -276,7 +392,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2076823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2076823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -348,24 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/viewDelivery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5835821" vertical-offset="0" max-vertical-offset="4658">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/deleteQuote.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="714">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/viewQuote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4709">
-          <caret line="24" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -387,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.076923" vertical-offset="31" max-vertical-offset="714">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/viewReturn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="153.38461" vertical-offset="3988" max-vertical-offset="4658">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -481,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/editreturn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="7344">
-          <caret line="121" column="62" selection-start-line="121" selection-start-column="62" selection-end-line="121" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/editReturnController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -522,13 +610,6 @@
         <state vertical-scroll-proportion="0.50066936" vertical-offset="0" max-vertical-offset="747">
           <caret line="22" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/editquote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5508475" vertical-offset="1667" max-vertical-offset="7548">
-          <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -576,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/editdelivery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70621467" vertical-offset="1540" max-vertical-offset="2686">
-          <caret line="383" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
-          <folding>
-            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18206158" vertical-offset="0" max-vertical-offset="747">
@@ -620,28 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/percentagedeliveredgraph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73092926" vertical-offset="714" max-vertical-offset="1751">
-          <caret line="73" column="70" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/percentageDeliveredController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9544846" vertical-offset="970" max-vertical-offset="1819">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38696256" vertical-offset="3597" max-vertical-offset="7072">
-          <caret line="228" column="77" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -654,29 +707,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/mainMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6463246" vertical-offset="1353" max-vertical-offset="2227">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/returns.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11789182" vertical-offset="0" max-vertical-offset="7480">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="72" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/onsitebalanceovertime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16504854" vertical-offset="1785" max-vertical-offset="2567">
-          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,26 +728,9 @@
         <state vertical-scroll-proportion="0.8799435" vertical-offset="601" max-vertical-offset="1819">
           <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invoicingReportSetup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35367545" vertical-offset="1683" max-vertical-offset="6205">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
-          <folding>
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#tbody#0;n#table#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,6 +747,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40083218" vertical-offset="2040" max-vertical-offset="8313">
           <caret line="137" column="57" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/invoicingReportSetup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51872396" vertical-offset="4233" max-vertical-offset="6205">
+          <caret line="845" column="0" selection-start-line="843" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#tbody#0;n#table#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/editquote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3461539" vertical-offset="5798" max-vertical-offset="6868">
+          <caret line="339" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/viewQuote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.653847" vertical-offset="6" max-vertical-offset="714">
+          <caret line="230" column="8" selection-start-line="35" selection-start-column="0" selection-end-line="230" selection-end-column="8" />
+          <folding>
+            <element signature="n#table#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/viewDelivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.307692" vertical-offset="6" max-vertical-offset="714">
+          <caret line="220" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding>
+            <element signature="n#table#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/viewReturn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="714">
+          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding>
+            <element signature="n#table#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/editdelivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="1785" max-vertical-offset="2703">
+          <caret line="342" column="24" selection-start-line="119" selection-start-column="14" selection-end-line="342" selection-end-column="24" />
+          <folding>
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/editreturn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.153847" vertical-offset="2063" max-vertical-offset="6681">
+          <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="7072">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mainMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.576923" vertical-offset="1353" max-vertical-offset="2227">
+          <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/onsitebalanceovertime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="1683" max-vertical-offset="2567">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/percentagedeliveredgraph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11789182" vertical-offset="0" max-vertical-offset="1751">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
