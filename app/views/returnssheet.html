@@ -31,7 +31,8 @@
                 <div class="input-group">
                   <span class="input-group-addon">Supplier:</span>
                   <select class="form-control" aria-describedby="basic-addon2">
-                    <option></option>
+                    <option>FormScaff</option>
+                    <option>Peri</option>
                   </select>
                 </div>
               </div>
@@ -64,30 +65,20 @@
             </div>
           </div>
           <div class="portlet-body">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label class="control-label"><strong>Project:</strong></label>
-
-                  <p class="form-control-static">Shopping Mall Project</p>
-                </div>
-              </div>
-              <!--/span-->
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label class="control-label"><strong>Supplier:</strong></label>
-
-                  <p class="form-control-static">FormScaff</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label class="control-label"><strong>Date:</strong></label>
-
-                  <p class="form-control-static">26/01/2015</p>
-                </div>
-              </div>
-            </div>
+              <table class="printHeadingTable">
+                <tr>
+                  <th>Project:</th>
+                  <td>Shopping Mall Project</td>
+                  <th>Zone:</th>
+                  <td>North Building</td>
+                </tr>
+                <tr>
+                  <th>Supplier:</th>
+                  <td>FormScaff</td>
+                  <th>Date:</th>
+                  <td>26 Feb 2015</td>
+                </tr>
+              </table>
 
             <table class="table table-bordered table-striped table-condensed flip-content">
               <thead class="flip-content">
@@ -96,19 +87,19 @@
                 <th>
                   Code
                 </th>
-                <th style="width:30%">
+                <th>
                   Product
                 </th>
-                <th class="numeric">
+                <th style="width:60px;">
                   Qty On Hand
                 </th>
-                <th class="numeric">
+                <th style="width:50px;">
                   Qty Loaded
                 </th>
-                <th class="numeric">
+                <th style="width:50px;">
                   Supplier Received
                 </th>
-                <th>Variance</th>
+                <th style="width:50px;">Variance</th>
               </tr>
               </thead>
               <tbody>
@@ -338,41 +329,44 @@
               </tbody>
             </table>
 
-            <table class="signatureTable">
+            <table class="printSignatureTable">
               <tr>
                 <th>Loaded By:</th>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
                 <th>Checked By:</th>
+                <td>&nbsp;&nbsp;</td>
               </tr>
               <tr>
                 <td>
-                  <table>
+                  <table class="printSignatureInnerTable">
                     <tr>
                       <th>Name:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                     <tr>
                       <th>Signature:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                     <tr>
                       <th>Date:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                   </table>
                 </td>
+                <td></td>
                 <td>
-                  <table>
+                  <table class="printSignatureInnerTable">
                     <tr>
                       <th>Name:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                     <tr>
                       <th>Signature:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                     <tr>
                       <th>Date:</th>
-                      <td></td>
+                      <td class="signature"></td>
                     </tr>
                   </table>
                 </td>
