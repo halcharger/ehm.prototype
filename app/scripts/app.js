@@ -88,6 +88,10 @@ angular
       .when('/returnssheet', {
         templateUrl: 'views/returnssheet.html'
       })
+      .when('/onsitebalanceovertime', {
+        templateUrl: 'views/onsitebalanceovertime.html',
+        controller: 'OnsiteBalanceOverTimeController'
+      })
       .otherwise({
         redirectTo: '/'
       });
